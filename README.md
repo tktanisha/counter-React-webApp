@@ -1,31 +1,36 @@
-# React & Tailwind CSS Starter Pack
 
-This is a starter pack for creating React projects with Tailwind CSS configured. It uses React version **18.2** and Tailwind CSS version **3.2**.
 
-## Usage
+# React Counter Button
 
-This starter pack includes a basic setup for using **Tailwind CSS with React**. To start building your own components and styles, follow these steps:
+A simple counter button component created with React to demonstrate usage of the useState hook.
 
-1. Clone the repository to your local machine.
-    ```sh
-    git clone https://github.com/thepranaygupta/react-tailwind-css-starter-pack.git
-    ```
+## Overview
 
-1. Install the required packages.
-    ```sh
-    cd react-tailwind-css-starter-pack
-    npm install
-    ```
+This project contains a Counter.js component that renders a button and paragraph displaying a count value. Clicking the button increments or decrements the count using the useState hook.
 
-1. Start the development server.
-    ```sh
-    npm start
-    ```
-1. Open the project in your browser at [`http://localhost:3000`](http://localhost:3000) to view your project.
-1. Create your React components and add your styles using Tailwind classes. You can also create new CSS files and import them into your components.
+## Technologies
 
-The project is set up to use `postcss-cli` to process your CSS files. You can add your own `tailwind.config.js` file to customize your Tailwind setup.
+- React - Frontend JavaScript library
+-Tailwind CSS-for styling
 
-## Contributing
+## Getting Started
 
-Contributions are welcome! If you have any suggestions or find any issues, please feel free to open an issue or a pull request.
+1. Clone the repository
+2. Run `npm install` to install dependencies 
+3. Run `npm start` to start the development server
+4. View the app at `http://localhost:3000`
+
+
+
+## Learning Outcomes
+
+The main goals of this project were to:
+
+- Learn how to use the useState hook to manage local component state
+- Understand how useState works behind the scenes to trigger re-renders
+- Build a simple interactive UI component in React
+
+It provides a basic example of using React's state management capabilities with hooks for hands-on practice and understanding.
+
+
+
